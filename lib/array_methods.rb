@@ -32,7 +32,6 @@ def find_max_value(array)
     end
   end
   return result
-     
 end
 
 find_max_value(scale)
@@ -42,5 +41,11 @@ find_max_value(valley)
 find_max_value(zig_zag)
 
 def find_min_value(array)
-  # Add your solution here
+  result = 
+  array.each do |n|
+    if n < result
+      result = n
+    end
+  end
+  return result
 end
