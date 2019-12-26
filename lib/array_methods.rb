@@ -9,8 +9,6 @@ def find_element_index(array, value_to_find)
       if value_to_find == v 
         return array[v]
       end
-    end  
-    
 end
 
 find_element_index(scale, 2)
