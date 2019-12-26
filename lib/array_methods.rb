@@ -15,8 +15,13 @@ end
 find_element_index(scale, 2)
 
 def find_max_value(array)
-  # Add your solution here
+    array.each |v|
+    num1 = v
+    num2 = v + 1
+    end
 end
+
+find_max_value(scale_2)
 
 def find_min_value(array)
   # Add your solution here
