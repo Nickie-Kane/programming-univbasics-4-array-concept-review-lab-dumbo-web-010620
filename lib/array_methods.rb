@@ -6,7 +6,9 @@ zig_zag = [500,4,1000,5,250]
 
 def find_element_index(array, value_to_find)
     array.each do |v| 
-      puts "index is #{array[v]}"
+      if value_to_find == v
+         return array[v]
+      end
     end
 end
 
