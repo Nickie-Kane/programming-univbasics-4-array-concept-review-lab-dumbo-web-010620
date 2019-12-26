@@ -25,9 +25,12 @@ find_element_index(zig_zag,400)
 
 
 def find_max_value(array)
+  result = 0 
   array.each do |n|
-    puts n
-  end
+    if n > result
+      result << n
+   end
+   return result
      
 end
 
