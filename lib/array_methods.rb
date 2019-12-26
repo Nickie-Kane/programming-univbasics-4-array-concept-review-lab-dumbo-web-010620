@@ -12,7 +12,6 @@ def find_element_index(array, value_to_find)
         result = nil
       end
     end
-    p result
     return result
 end
 
