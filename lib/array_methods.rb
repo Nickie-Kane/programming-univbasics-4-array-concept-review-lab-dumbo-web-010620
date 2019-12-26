@@ -41,7 +41,7 @@ find_max_value(valley)
 find_max_value(zig_zag)
 
 def find_min_value(array)
-  result = 
+  result = 0
   array.each do |n|
     if n < result
       result = n
