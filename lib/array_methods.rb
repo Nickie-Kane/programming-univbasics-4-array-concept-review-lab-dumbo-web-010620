@@ -22,6 +22,7 @@ def find_max_value(array)
       num3 = num1
     end
     return num3
+  end
 end
 
 find_max_value(scale_2)
