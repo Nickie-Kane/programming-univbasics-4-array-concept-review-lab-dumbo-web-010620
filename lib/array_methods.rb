@@ -1,5 +1,8 @@
 def find_element_index(array, value_to_find)
-    array.each (|v|)
+    array.each do |v|
+      if value_to_find == v 
+        return array[v]
+      end
     
 end
 
