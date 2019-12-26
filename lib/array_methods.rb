@@ -8,6 +8,8 @@ def find_element_index(array, value_to_find)
     array.each_with_index do |v, index| 
       if value_to_find == v
          return index
+      else
+        return 
       end
     end
 end
