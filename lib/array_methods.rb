@@ -28,7 +28,7 @@ def find_max_value(array)
   result = 0 
   array.each do |n|
     if n > result
-      result << n
+      result = n
    end
    return result
      
