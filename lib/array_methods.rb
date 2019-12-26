@@ -25,10 +25,17 @@ find_element_index(zig_zag,400)
 
 
 def find_max_value(array)
+  array.each do |n|
+    puts n
+  end
      
 end
 
+find_max_value(scale)
 find_max_value(scale_2)
+find_max_value(hill)
+find_max_value(valley)
+find_max_value(zig_zag)
 
 def find_min_value(array)
   # Add your solution here
