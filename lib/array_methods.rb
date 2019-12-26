@@ -13,8 +13,8 @@ def find_element_index(array, value_to_find)
        else
          val = 
       end
+      puts val
     end
-    return val
 end
 
 find_element_index(scale, 2)
