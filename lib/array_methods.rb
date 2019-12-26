@@ -31,7 +31,7 @@ def find_max_value(array)
       result = n
     end
   end
-   return result
+  return result
      
 end
 
