@@ -12,7 +12,8 @@ def find_element_index(array, value_to_find)
         result = nil
       end
     end
-    p return result
+    p result
+    return result
 end
 
 find_element_index(scale, 2)
