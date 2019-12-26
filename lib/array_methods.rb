@@ -28,14 +28,7 @@ find_element_index(zig_zag,400)
 
 
 def find_max_value(array)
-    array.each do |v|
-    num1 = v
-    num2 = v + 1
-    if num1 > num2
-      num3 = num1
-    end
-    return num3
-  end
+     
 end
 
 find_max_value(scale_2)
