@@ -49,3 +49,9 @@ def find_min_value(array)
   end
   return result
 end
+
+find_min_value(scale)
+find_min_value(scale_2)
+find_min_value(hill)
+find_min_value(valley)
+find_min_value(zig_zag)
