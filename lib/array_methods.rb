@@ -15,7 +15,7 @@ end
 find_element_index(scale, 2)
 
 def find_max_value(array)
-    array.each |v|
+    array.each do |v|
     num1 = v
     num2 = v + 1
     end
