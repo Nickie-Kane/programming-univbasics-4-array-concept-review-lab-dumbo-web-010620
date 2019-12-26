@@ -9,7 +9,7 @@ def find_element_index(array, value_to_find)
       if value_to_find == v
          return index
       else
-        return 
+         return 
       end
     end
 end
